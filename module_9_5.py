@@ -19,8 +19,7 @@ class Iterator:
                 raise StopIteration()
         else:
             if self.pointer < self.stop:
-                if self.pointer < self.stop:
-                    raise StopIteration()
+                raise StopIteration()
         self.pointer += self.step
         return self.pointer - self.step
 
